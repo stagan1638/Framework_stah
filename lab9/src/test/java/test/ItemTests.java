@@ -16,7 +16,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class ItemTests extends CommonConditions {
-    @Test
+    /*@Test
     public void testAddToCart() {
         Item item = ItemCreator.forAddition();
 
@@ -29,7 +29,7 @@ public class ItemTests extends CommonConditions {
                 .getFirstItem();
 
         assertThat(cartItem, is(equalTo(item)));
-    }
+    }*/
 
     @Test
     public void testSearchItems() {
@@ -44,18 +44,19 @@ public class ItemTests extends CommonConditions {
         assertThat(results, Every.everyItem(containsStringIgnoringCase(query)));
     }
 
-    @Test
+    /*@Test
     public void testBuyQuickly() {
         Buyer buyer = BuyerCreator.forPurchase();
         String expectedMessage = "Ваш заказ отправлен. Спасибо.";
 
-        String result = new ItemPage(driver)
-                .openPage()
-                .closeCityPopup()
-                .showQuickPurchaseForm()
-                .buyQuickly(buyer)
+        ItemPage itemPage = new ItemPage(driver);
+        itemPage.openPage();
+        itemPage.closeCityPopup();
+        itemPage.showQuickPurchaseForm();
+        itemPage.buyQuickly(buyer);
+        String result = itemPage
                 .getBuyQuicklyResult();
 
         assertThat(result, is(equalTo(expectedMessage)));
-    }
+    }*/
 }
