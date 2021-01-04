@@ -8,9 +8,11 @@ import page.TelegramPage;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class OtherTests extends CommonConditions {
+public class OtherTests extends CommonConditions 
+{
     @Test
-    public void testOpenCatalog() {
+    public void testOpenCatalog() throws InterruptedException {
+        Thread.sleep(10000);
         String expectedPageTitle = "Техника для кухни купить в Минске в гипермаркете Mile";
         String expectedText = "Техника для кухни";
 
