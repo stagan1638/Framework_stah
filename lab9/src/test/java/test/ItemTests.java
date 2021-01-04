@@ -16,7 +16,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class ItemTests extends CommonConditions {
-    /*@Test
+    @Test
     public void testAddToCart() {
         Item item = ItemCreator.forAddition();
 
@@ -29,7 +29,7 @@ public class ItemTests extends CommonConditions {
                 .getFirstItem();
 
         assertThat(cartItem, is(equalTo(item)));
-    }*/
+    }
 
     @Test
     public void testSearchItems() {
