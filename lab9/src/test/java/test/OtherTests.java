@@ -28,8 +28,8 @@ public class OtherTests extends CommonConditions
         assertThat(catalogPage.getBreadcrumbText(), is(equalTo(expectedText)));
     }*/
 
-   @Test
-    public void testSelectCity() {
+   /*@Test
+    public void testSelectCity() {                          ///Working
         String city = "Брест";
 
 
@@ -39,5 +39,5 @@ public class OtherTests extends CommonConditions
                 .waitForReload();
 
         assertThat(mainPage.getCityName(), is(equalTo(city)));
-    }
+    }*/
 }
