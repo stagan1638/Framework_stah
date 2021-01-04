@@ -25,7 +25,7 @@ public class UserTests extends CommonConditions {
         assertThat(result, is(equalTo(expectedMessage)));
     }
 
-    @Test
+    /*@Test
     public void testRegister() {
         User user = UserCreator.forRegistration();
 
@@ -41,5 +41,5 @@ public class UserTests extends CommonConditions {
 
         assertThat(accountPage.getFullName(), is(equalTo(user.getFullName())));
         assertThat(accountPage.getEmail(), is(equalTo(user.getEmail())));
-    }
+    }*/
 }
