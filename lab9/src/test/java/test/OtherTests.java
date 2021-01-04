@@ -12,7 +12,7 @@ public class OtherTests extends CommonConditions
 {
     @Test
     public void testOpenCatalog() throws InterruptedException {
-        Thread.sleep(10000);
+        Thread.sleep(1000);
         String expectedPageTitle = "Техника для кухни купить в Минске в гипермаркете Mile";
         String expectedText = "Техника для кухни";
 
