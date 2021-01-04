@@ -9,7 +9,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class OtherTests extends CommonConditions {
-    /*@Test
+    @Test
     public void testOpenCatalog() {
         String expectedPageTitle = "Техника для кухни купить в Минске в гипермаркете Mile";
         String expectedText = "Техника для кухни";
@@ -24,7 +24,7 @@ public class OtherTests extends CommonConditions {
         assertThat(catalogPage.getPageTitle(), is(equalTo(expectedPageTitle)));
         assertThat(catalogPage.getHeadingText(), is(equalTo(expectedText)));
         assertThat(catalogPage.getBreadcrumbText(), is(equalTo(expectedText)));
-    }*/
+    }
 
    /*@Test
     public void testSelectCity() {
