@@ -9,9 +9,10 @@ import service.UserCreator;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class UserTests extends CommonConditions {
+public class UserTests extends CommonConditions 
+{
 
-    @Test
+   /* @Test
     public void testSubscribe() {
         User user = UserCreator.forSubscription();
         String expectedMessage = "Подписка оформлена";
@@ -23,7 +24,7 @@ public class UserTests extends CommonConditions {
                 .getSubscriptionPopupTitle();
 
         assertThat(result, is(equalTo(expectedMessage)));
-    }
+    }*/
 
     /*@Test
     public void testRegister() {
