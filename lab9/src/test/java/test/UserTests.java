@@ -11,7 +11,7 @@ import static org.hamcrest.Matchers.*;
 
 public class UserTests extends CommonConditions {
 
-    @Test
+   /* @Test
     public void testSubscribe() {
         User user = UserCreator.forSubscription();
         String expectedMessage = "Подписка оформлена";
@@ -23,7 +23,7 @@ public class UserTests extends CommonConditions {
                 .getSubscriptionPopupTitle();
 
         assertThat(result, is(equalTo(expectedMessage)));
-    }
+    }*/
 
     /*@Test
     public void testRegister() {
