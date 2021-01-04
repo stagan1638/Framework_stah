@@ -9,8 +9,8 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class OtherTests extends CommonConditions 
-/*{
-    @Test
+{                                                             ///Working
+    /*@Test
     public void testOpenCatalog() throws InterruptedException {
         Thread.sleep(1000);
         String expectedPageTitle = "Техника для кухни купить в Минске в гипермаркете Mile";
